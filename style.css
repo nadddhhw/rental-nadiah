@@ -1,0 +1,98 @@
+body {
+    font-family: Timer 'Times New Roman', Times, serif;
+    background-color: #666;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: rgb(16, 16, 16);
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #66a8eb;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #66a8eb;
+    margin: 0;
+    padding: 10px 0;
+}
+ul li {
+    margin: 0 15px;
+}
+
+ul li a {
+    color: #666;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    color: #ffcc00;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+    overflow: hidden;
+    background: rgb(227, 161, 161);
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    margin-top: 20px;
+}
+button {
+    background-color: #0c0c0c;
+    color: rgb(227, 161, 161);
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: rgb(227, 161, 161);
+}
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #66a8eb;
+    color: #fff;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
